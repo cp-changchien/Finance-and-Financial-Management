@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1682500231 "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" "report.pdf" "report" 1682500232
+["pdflatex"] 1682503835 "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" "report.pdf" "report" 1682503836
   "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" 1682499969 2044 20888706226ae446467e4c4610449829 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -237,7 +237,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1665157324 2826439 51a12c89b2da45b68d72a13770e045cc ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "Figure/cal.png" 1682487841 45147 c517babdbdeaa6636e5b20a521b91313 ""
+  "Figure/call.png" 1682503518 20735 e7d35e484955bc43d78b141e94f796f2 ""
   "Figure/cml.png" 1682488177 45193 221cd72ea4edfcd6edd721daf84f6cd0 ""
+  "Figure/option.png" 1682501622 115604 b6caf0f66e88bd569832a49ecd80d75d ""
+  "Figure/put.png" 1682503559 24902 f55759ffe1c9cba329f4df2efdc2c3e5 ""
   "Figure/table.png" 1682497682 67473 0f0582192d5a9a744bae49cb1802b023 ""
   "lecture1.tex" 1682500120 3275 6d6f7de3a6f7a6ae400d764f78d7fc9d ""
   "lecture2.tex" 1682444304 3168 7306e0aafb32ae9a379f0288fbdb7db4 ""
@@ -246,11 +249,11 @@
   "lecture5.tex" 1682493656 3112 58b60afbe7a70d0d00ac54c081aa4028 ""
   "lecture6.tex" 1682499969 4592 5b84387c05a446a2e6e6718542b06484 ""
   "lecture7.tex" 1682450227 5794 fa37a9c57e68d7c65cb807d108a8b713 ""
-  "lecture8.tex" 1682500161 317 7606c914527c64d67c611c57edb18c26 ""
-  "report.aux" 1682500232 8230 5417e35739ed22ec635b4428ebc11ce1 "pdflatex"
-  "report.out" 1682500232 10020 101e0bdbcbda943f26b48dd870ec84d6 "pdflatex"
+  "lecture8.tex" 1682503835 3378 9b26f9b8d19c09c90591cbc7c637b0b1 ""
+  "report.aux" 1682503836 10014 9a46400751517d14107d8c26a959b959 "pdflatex"
+  "report.out" 1682503836 11954 23d0159450f0d9276ff6731d8b5a3130 "pdflatex"
   "report.tex" 1682499969 2044 20888706226ae446467e4c4610449829 ""
-  "report.toc" 1682500232 5165 bb100d3a1deb3bc1a4ed280b044a1cc3 "pdflatex"
+  "report.toc" 1682503836 6375 90b7711f7c509a1f9fe01774cf0a9f3b "pdflatex"
   (generated)
   "report.aux"
   "report.log"

@@ -56,3 +56,17 @@
 \contentsline {subsection}{\numberline {7.7}Segmented Markets Theory}{10}{subsection.7.7}%
 \contentsline {subsection}{\numberline {7.8}Duration}{11}{subsection.7.8}%
 \contentsline {section}{\numberline {8}Lecture 8: Options}{12}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Put Option}{12}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Call Option}{12}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Long Position}{12}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Short Position}{12}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Evaluate Options at Expiry}{12}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Option Strategies}{13}{subsection.8.6}%
+\contentsline {subsubsection}{\numberline {8.6.1}Covered Calls}{13}{subsubsection.8.6.1}%
+\contentsline {subsubsection}{\numberline {8.6.2}Protected Put}{13}{subsubsection.8.6.2}%
+\contentsline {subsubsection}{\numberline {8.6.3}Bull Spread}{13}{subsubsection.8.6.3}%
+\contentsline {subsubsection}{\numberline {8.6.4}Bear Spread}{13}{subsubsection.8.6.4}%
+\contentsline {subsubsection}{\numberline {8.6.5}Butterfly Spread}{13}{subsubsection.8.6.5}%
+\contentsline {subsubsection}{\numberline {8.6.6}Straddles/strangles}{13}{subsubsection.8.6.6}%
+\contentsline {subsubsection}{\numberline {8.6.7}Strips/straps}{13}{subsubsection.8.6.7}%
+\contentsline {subsection}{\numberline {8.7}Put-Call Parity}{13}{subsection.8.7}%
