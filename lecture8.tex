@@ -69,12 +69,68 @@ A $\boxed{\textbf{Put option's value}}$ is:
 
 \subsection{Option Strategies}
 \subsubsection{Covered Calls}
+Buy the underlying. Write a call option.
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/cover_call.png}
+\end{figure}
+
 \subsubsection{Protected Put}
+Buy the underlying. Buy a put option.
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/protect_put.png}
+\end{figure}
+
 \subsubsection{Bull Spread}
+Buy a low-strike call option. Sell a high-strike call option.
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/bull.png}
+\end{figure}
+
 \subsubsection{Bear Spread}
+Buy a high-strike call option. Sell a low-strike call option.
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/bear.png}
+\end{figure}
+
 \subsubsection{Butterfly Spread}
+\begin{itemize}
+    \item Buy a low strike bull spread. Sell a high strike bull spread.
+    \item Call($X_1$)-Call($X_2$) - (Call($X_2$)-Call($X_3$)) = Call($X_1$)-2Call($X_2$)+Call(X$X_3$)
+\end{itemize}
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/butter.png}
+\end{figure}
+
 \subsubsection{Straddles/strangles}
+Buy a put option and a call option at the same (different) strikes
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/straddle.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/strangle.png}
+\end{figure}
+
 \subsubsection{Strips/straps}
+Buy a straddle and a put (or a call)
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/strip.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering 
+    \includegraphics[width =0.4\textwidth]{Figure/strap.png}
+\end{figure}
+
+
 
 \subsection{Put-Call Parity}
 
