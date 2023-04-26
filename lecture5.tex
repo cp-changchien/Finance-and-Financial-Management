@@ -1,0 +1,41 @@
+Arbitrage is a trading strategy that \textbf{(1)} require NO initial investment. \textbf{(2)} Has \underline{NO negative cash flows} at any time. \textbf{(3)} Has a positive cash flow at at least one time. Arbitrage also implies and solves mispricing. 
+
+\begin{multicols}{2}
+Important insight in theoretical finance: (1) True arbitrage cannot exist. (2) Prices would adjust to eliminate it. (3) The no-arbitrage condition.
+
+\subsection{Bid-Ask Spread}
+\underline{\textbf{Bid:}} the price at which market maker buys an asset.\\[0.2cm]
+\underline{\textbf{Ask:}} the price at which market maker sells an asset.\\[0.2cm]
+\underline{\textbf{Mid:}} (Bid+Ask)/2, a way to value holdings.\par 
+\underline{The Bid-Ask spread} is normally set base on liquidity and other reasons, for a market maker, they care about (1) Their risk aversion (2) Internal guidelines on inventory (3) Reputations. (4) \textbf{Adverse Selection}. if an investor wished to purchase stocks from a fund and has inside or more research on that specific asset, them the fund might widen their spread to minimise their risk in order to offset this lack of information.
+
+\subsection{Implication of No Arbitrage}
+\subsubsection{The Law of One Price (LOOP)}
+If two securities have the same payoffs, they have the same price. e.g.\par 
+
+Chase is offering a bond that pays \$100 in one year, at \$94.34.
+Merrill Lynch is offering a bond that pays \$100 in one year, at \$95.23. In this arbitrage example, arbitrageurs tends to borrow/sell Merrill Lynch bond and buy the Chase bond to make profit.However transaction costs make it more difficult to find arbitrages, there isn't necessarily a deterministic price with transaction costs.
+
+\subsubsection{Replicating Portfolio}
+If a portfolio has the same payoffs as a security, it must have the same price. e.g.\par
+
+If a bond three-year bond with a 10\% coupon rate is trading for \$100. At the same time 
+\begin{itemize}
+    \item A zero-coupon bond maturing in 1 year costs \$98
+    \item A zero-coupon bond maturing in 2 year costs \$96
+    \item A zero-coupon bond maturing in 3 year costs \$93
+\end{itemize}
+
+From the replicating portfolio, we can refer that \$10 in \underline{one year} is worth \$9.8 today; \$10 in \underline{two year} is worth \$9.6 today, \$110 in \underline{three year} is worth \$102.3 today, the bond should worth \textcolor{red}{\$121.7}, therefore, buy the bond and short the replicating portfolio if it's priced at \$100.
+
+\subsubsection{Dynamic Hedging Strategy}
+If a self-financing strategy has the same payoffs as a security, it must have the same price. e.g.\par 
+
+How much should a zero-coupon bond maturing in two years cost if:
+\begin{itemize}
+    \item A zero-coupon bond maturing in one year costs \$98.
+    \item In one year, a one year zero-coupon bond also costs \$98.
+\end{itemize}
+Need \$100 in two year, so i need \$98 in one year (for the second point), therefore, to get only \$98 in one year, the bond today will cost 0.98*98= \$96.04. If priced at \$95: buy the two-year zero. Short 0.98 units of the 1-year zero at \$96.04. Make \$1.04.
+
+\end{multicols}

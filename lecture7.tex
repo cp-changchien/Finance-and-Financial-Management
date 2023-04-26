@@ -1,0 +1,75 @@
+\begin{multicols}{2}
+    
+
+\subsection{Bond Pricing}
+$V_0$ is the current value of the bond (at time 0). $C_t$ is the coupon payment at time $t$. $FV_T$ is the face value at maturity. $r_{0,t}$ is the current interest rate for investment maturing at time T. 
+\begin{gather*}
+    V_0 = \sum_{t=1}^{T}\frac{C_t}{(1+r_{0,t})^t}+\frac{FV_T}{(1+r_{0,T})^T}
+\end{gather*}
+
+\subsection{Yield To Maturity (YTM)}
+\begin{itemize}
+    \item Yield to maturity (YTM) is the total return anticipated on a bond if the bond is held until it matures, accounting for the present value of a bond's future coupon payments
+    \item Yield to maturity is the total rate of return that will have been earned by a bond when it makes all interest payments and repays the original principal.
+    \item YTM is essentially a bond's internal rate of return (IRR) if held to maturity.
+\end{itemize}
+Given a price $P_0$, the the yield to maturity is the discount rate $y$ that sets the value $V_0$ equal to the price:
+\begin{gather*}
+    y\hspace*{0.3cm}s.t.\hspace*{0.3cm}P_0 = \sum_{t=1}^{T}\frac{C_t}{(1+y)^t}+\frac{FV_T}{(1+y)^T}
+\end{gather*}
+ 
+\subsection{Forward Interest Rate}
+The forward rate is the \textit{inferred} rate from the yield curve. Say we have spot interest rate for investments with a one-year maturity, \underline{$r_{0,1}$ = 0.26\%}. and spot interest rate for a two-year maturity, \underline{$r_{0,2}$ = 0.68\%}, what would the Forward interest rate for one year investments starting in one year, $f_{1,2}$ be?
+\begin{gather*}
+    (1+r_{0,2})^2 = (1+r_{0,1})(1+f_{1,2})
+\end{gather*}
+This can be express as the \textbf{(1)} two year maturity value must equal to the one year maturity + the forward rate value due to arbitrage limitation. we can also be inferred that the \textbf{(2)} two year bond interest rate will be an average of the combination of the one year + forward interest rate. Thus, for an upward slopping yield curve, the \textbf{forward interest rate must be higher than both the one year and the two year} 
+
+\subsection{Monetary Policy (Central Bank)}
+Purpose of messing with money supply: (1) Control inflation (2) low and sustainable unemployment. \par
+\textbf{Inflation:}
+\begin{itemize}
+    \item need to raise interest rate $\rightarrow$ take money out of circulation(market) $\rightarrow$ sell lots of government bond $\rightarrow$ bond price drops 
+    $\rightarrow$ increases interest rate and yield 
+    \item people tends to other use of money to get better profits (i.e. save in the bank), thus, bond prices tend to drop to attract.
+    \item When \textcolor{red}{\textbf{interest rates rise}}, existing bonds paying lower interest rates become less attractive, causing their \textcolor{red}{\textbf{price to drop}} below their initial par value in the secondary market. (The coupon payments remain unaffected.) \textcolor{red}{\textbf{also increases the yield}}
+    
+\end{itemize}
+\textbf{Recession:}
+\begin{itemize}
+    \item need to lower interest rate $\rightarrow$ put money into circulation(market) $\rightarrow$ buy lots of government bond $\rightarrow$ bond price increases (supply drops) $\rightarrow$ decreases interest rate and yield 
+\end{itemize}
+
+\subsection{Expectations Theory}
+\textbf{(1)} Long run rates are a geometric average of current and future short rates. \textbf{(2)} The expected future interest rate is equal to the forward rate.
+\begin{gather*}
+    (1+r_{0,2})^2 = (1+r_{0,1})(1+E[r_{1,2}])
+\end{gather*}
+Empirically, slope of yield curve is good predictor of GDP growth rate (recession)
+
+\subsection{Liquidity Preference Theory}
+\textbf{(1)} Long-term lenders require compensation due to lack of liquidity ($\pi_{1,2}$ liquidity premium). \textbf{(2)} higher yields for longer maturity bonds, the yield curve will then be upwards slopping independent of the expectations. 
+\begin{gather*}
+    (1+r_{0,2})^2 = (1+r_{0,1})(1+E[r_{1,2}]+\pi_{1,2})
+\end{gather*}
+If the yield curve is observed to be \textcolor{red}{upwards sloping}, then future spot rates are expected to be \textcolor{red}{higher than current} spot rates under \underline{Rational Expectations} Theory and \textcolor{red}{indeterminate} under \underline{Liquidity Preference} Theory
+\subsection{Segmented Markets Theory}
+different people are trading different stuffs, thus you can't do much interference on comparing markets. e.g. index tax funds wants to hold the longest safest bonds possible (30 years), bond price increases, yield decreases. This explains persistent differences in rates (20yr vs 30yr). They trade it because they "like" it.
+
+\subsection{Duration}
+Bond prices may be affected severely to interest rate risk, how much will the bond price be affected by changes in interest rate? What happens when the \textbf{yield curve shifts up parallel (level).}
+\begin{gather*}
+    D = -\frac{dP}{dy}\frac{1+y}{P} = \sum_{t=1}^{T}w_tt\hspace*{0.4cm}\text{where}\hspace*{0.2cm}w_t = \frac{\text{CashFlow}_t}{P(1+y)^t}
+\end{gather*}
+\begin{itemize}
+    \item Duration can measure how long it takes, in years, for an investor to be repaid a bond's price by the bond's total cash flows
+    \item Duration also measures a bond's or fixed income portfolio's price sensitivity to interest rate changes.
+    \item Most often, when \textcolor{red}{interest rates rise}, the higher a bond's duration, the more its price will fall.
+    \item Higher Duration $\rightarrow$ lower coupon rate (longer term to maturity and more volatility) $\rightarrow$ more vulnerable to interest rate risk
+    \item Higher coupon has the shorter duration. 
+    \item e.g. for duration of 5 years, 1\% increase in interest rate, bond value decreases by 5\%, vice versa.
+    \item Sharpeners and levellers are strategies to \textbf{hedge yield curve shape} changing. 
+\end{itemize}
+
+
+\end{multicols}

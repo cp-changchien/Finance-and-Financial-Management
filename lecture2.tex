@@ -1,0 +1,68 @@
+Time value of money can be understood by expressing as a compensation for lack of liquidity (independent of the riskiness of what im investing) (risk-free), where
+Assets can be formally defined as (1)\underline{\textbf{sequence of cashflows}}. And it is important to recall that (2)\underline{\textbf{One dollar today does not equal one dollar tomorrow}}
+
+\begin{multicols}{2}
+
+\subsection{Future Value (FV)}
+\begin{gather*}
+    \mathbf{FV = PV(1+RT)}
+\end{gather*}
+
+\subsection{Present Value (PV) or Price}
+\begin{gather*}
+    \mathbf{PV = \frac{FV}{(1+R)^T}}
+\end{gather*}
+       
+\subsection{Yield (R): Rate of return}
+\begin{gather*}
+    \mathbf{R = \Big(\frac{FV}{PV}\Big)^{1/T}-1}
+\end{gather*}
+
+\subsection{Discount Factor}
+\textbf{Discount factors} are how we value future cashflow, my willingness to buy and sell will depend on discount factor, how you convert future cashflow to today
+\begin{itemize}
+    \item (Risk-free) Discount factor for a period of t is:
+    \begin{shaded}
+        \begin{gather*}
+            \mathbf{\frac{1}{(1+R)^t}}
+        \end{gather*}
+    \end{shaded}
+    \item if my discount factor is \textbf{higher} than yours, that means I'm willing to \textbf{pay more} (higher PV) today than you are, i.e. willing to buy a bond from you. less risk averse (lower R)
+    \item \textbf{lower} the discount factor, lower the patient you are willing to pay, and higher the the need for cash right now. \textbf{more risk averse} (higher R)
+\end{itemize}
+
+\subsection{Perpetuities}
+How much is an infinite cashflow of C each year worth?
+\begin{gather*}
+    PV = \frac{C}{(1+R)}+\frac{C}{(1+r)^2}+\dots = \frac{C}{R}
+\end{gather*}
+\subsubsection{Growing/Infinite Perpetuities}
+gets fixed amount of cash for a infinite number of periods. How much is an \textit{infinite} cash-flow of C growing at g each year worth?
+\begin{gather*}
+    \begin{split}
+        &PV = \frac{C}{1+R}+\frac{C(1+g)}{(1+R)^2}+\frac{C(1+g)^2}{(1+R)^3}+\dots\\
+        &PV = \frac{C}{R-g}
+    \end{split}
+\end{gather*}
+\begin{itemize}
+    \item for this to be well-defined, we need R $>$ g
+    \item If g = R, that means g is perfectly compensating for my time value of money. i.e. All rhe growth in the payment getting are perfectly compensating me for the amount of time I'm losing, which indicates each cashflow is equally weighted for me.
+    \item Effectively, this stream of infinite money is worth, in terms of how much I'm willing to pay is infinite amount of money. (value it infinitely because I'd be willing to pay infinitely amount), therefore there's NO well-defined price I can arrive to at for this.
+\end{itemize}
+
+\subsection{Fixed Horizon Annuities}
+you get fixed amount of cash every period for a finite number of periods
+How much is a fixed horizon cash-flow of C each year worth?
+\begin{gather*}
+    \begin{split}
+        PV &= \frac{C}{(1+R)}+\frac{C}{(1+r)^2}+\dots+\frac{C}{(1+R)^T}\\
+        (1+R)PV &= C + \frac{C}{1+R} + \dots + \frac{C}{(1+R)^{T-1}}\\
+        RPV &= C - \frac{C}{(1+R)^T}\\
+        PV &= \frac{C}{R} - \frac{C}{R(1+R)^T}\\
+    \end{split}
+\end{gather*}
+T-period Annuity = Infinite Perpetuity - Date-T Perpetuity
+
+
+
+\end{multicols}
