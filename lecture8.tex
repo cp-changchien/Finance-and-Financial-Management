@@ -196,15 +196,18 @@ Where $C$ is the price of a call, $P$ is the price of a put, $T$ is the time to 
     \end{tabular}
 \end{table}
 \vspace*{-0.5cm}
-By buying a call, selling a put, and lend the present value of the strike, I ended up with a portfolio $S_T$, which implies that I ended up owning the stock, or owning the cash equivalent of the stock no matter the stock does well or bad. So another way to \textit{own} a stock is to \textit{buy} the stock. Thus, this portfolio perfectly replicates the payoffs of owning this stock.
+By buying a call, selling a put, and lending the present value of the strike, I ended up with a portfolio $S_T$, which implies that I ended up owning the stock, or owning the cash equivalent of the stock no matter the stock does well or bad. So another way to \textit{own} a stock is to \textit{buy} the stock. Thus, this portfolio perfectly replicates the payoffs of owning this stock.
 
 \subsection{Option Pricing}
 \subsubsection{Risk-Neutral Probability Distribution}
-Say I offer a lottery to bet on a fair coin toss ($P(H)=P(T)=0.5$), if it lands on head I'll give you \$100, and nothing if it lands on tails. Say the certainty equivalent is \$30 (the price of the lottery is \$30)\footnote{The certainty equivalent cash flow is the risk-free cash flow that an investor or manager considers equal to a different expected cash flow which is higher, but also riskier. It is closely related to the concept of \textbf{risk premium} or the amount of additional return an investor requires to choose a risky investment over a safer investment}, the probability of hands is then $Q(H)=30/100 = 0.3\%$, and the probability of tails is then $Q(T) = 70\%$. Why is that the $Q(H)<P(H)$?? Why are we not willing to pay \$50 for the lottery??\par 
+Say there is a fair coin ($P(H)=P(T)=0.5$) option where I offer you \$2 if it lands on head and \$0 if it lands on tails, how much will you be willing to pay for this option. From an expected future value (EFV) sense, the expected value will be $0.5\cdot\$2+0.5\cdot\$0 = \$1$, if we account for time discount ($R_f = 3\%$) then the expected discount value (EDV) will be $\$1\cdot e^{-rT} = \$0.97$. However, because the market tend to be risk averse, the price will tend to what is called the certainty equivalent\footnote{The certainty equivalent cash flow is the risk-free cash flow that an investor or manager considers equal to a different expected cash flow which is higher, but also riskier. It is closely related to the concept of \textbf{risk premium} or the amount of additional return an investor requires to choose a risky investment over a safer investment}. Assume that the certainty equivalent is \$0.85, then from EFV, the discount rate is now 16.3\% ($Pe^rT = FV$), which there is a 13.3\% risk premium for compensation. The \textbf{Risk Neutral Probability} are then defined as the probability that equates the \underline{expected discount value} to the \underline{market price}. 
+\begin{gather*}
+    \$0.85 = [\$2\cdot p+\$0\cdot(1-p)]e^{-r_f}\\
+    p = \frac{0.85}{2}e^{r_f} = 43.8\%
+\end{gather*}
+The term \textit{Risk Neutral} is defined as if we go to an imaginary world where the probability calculated above are accurate for the coin, and then calculate the expected discount value, and under the assumption that we are risk neutral\footnote{Under the assumption of risk neutrality, investors do not require a higher expected return to compensate them for taking on more risk, and they do not penalize investments with higher risk. Instead, they only care about the expected return of the investment, which is the weighted average of the possible outcomes of the investment, where each outcome is weighted by its probability.}, the EDV calculated (\$0.85) will thus be a fair market price to pay.
 
-Because the lottery is \textbf{risky}, we won't pay the actuarially price (\$50), therefore, the difference between the actuarially price and the price we are willing to pay (\$30) is the \underline{risk premium}. Thus, the distribution extract by looking at the price will be skewed because the probability assigned to heads is lower than the truth when riskiness is involved. People on average tends to be risk averse that they won't pay the actuarially fair price.\par 
-
-\textbf{Good states of the world will be undervalued (0.3), bad states will be overvalued (0.7)}. This is how risk aversion shows up in prices. The Risk-Neutral Distribution (Q)\footnote{Under the assumption of risk neutrality, investors do not require a higher expected return to compensate them for taking on more risk, and they do not penalize investments with higher risk. Instead, they only care about the expected return of the investment, which is the weighted average of the possible outcomes of the investment, where each outcome is weighted by its probability.} tells us about the physical probability (P) but also with risk aversion, and it's hard to separate these two. 
+Good states of the world will be undervalued (43.8\%), bad states will be overvalued (56.2\%). This is how risk aversion shows up in prices. The Risk-Neutral Distribution tells us about the physical probability (P) but also with risk aversion, and it's hard to separate these two. 
 
 \subsubsection{How to get Q distribution}
 Consider three call options with the same maturity but different strike price:
@@ -215,7 +218,7 @@ Consider three call options with the same maturity but different strike price:
 \end{itemize}
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.28\textwidth]{Figure/Q_call.png}
+    \includegraphics[width =0.25\textwidth]{Figure/Q_call.png}
 \end{figure}
 And then we construct a bull spread with these call options (Bull spread: buy low strike call, sell high strike call) 
 \begin{itemize}
@@ -224,7 +227,7 @@ And then we construct a bull spread with these call options (Bull spread: buy lo
 \end{itemize}
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.28\textwidth]{Figure/Q_bull.png}
+    \includegraphics[width =0.25\textwidth]{Figure/Q_bull.png}
 \end{figure}
 And finally, if we construct a butterfly spread (Buy low strike bull, sell high strike bull). 
 \begin{itemize}
@@ -232,7 +235,7 @@ And finally, if we construct a butterfly spread (Buy low strike bull, sell high 
 \end{itemize}
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.28\textwidth]{Figure/Q_butter.png}
+    \includegraphics[width =0.25\textwidth]{Figure/Q_butter.png}
 \end{figure}
 This particular butterfly spread price Arrow-Debreu Securities, where if one particular state of the world happens you get \$1 and \$0 if any other state of the world happens.\par
 

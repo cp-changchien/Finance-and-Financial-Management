@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.7)  27 APR 2023 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.7)  27 APR 2023 18:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1051,37 +1051,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--202
  []
 
 [15 <./Figure/strip.png> <./Figure/strap.png> <./Figure/parity.png>]
-<Figure/Q_call.png, id=575, 1050.92625pt x 632.3625pt>
+<Figure/Q_call.png, id=576, 1050.92625pt x 632.3625pt>
 File: Figure/Q_call.png Graphic file (type png)
 <use Figure/Q_call.png>
-Package pdftex.def Info: Figure/Q_call.png  used on input line 218.
-(pdftex.def)             Requested size: 140.1349pt x 84.3135pt.
-<Figure/Q_bull.png, id=576, 1047.915pt x 636.3775pt>
+Package pdftex.def Info: Figure/Q_call.png  used on input line 221.
+(pdftex.def)             Requested size: 125.12099pt x 75.28198pt.
+<Figure/Q_bull.png, id=577, 1047.915pt x 636.3775pt>
 File: Figure/Q_bull.png Graphic file (type png)
 <use Figure/Q_bull.png>
-Package pdftex.def Info: Figure/Q_bull.png  used on input line 227.
-(pdftex.def)             Requested size: 140.1349pt x 85.10129pt.
-<Figure/Q_butter.png, id=577, 1044.90375pt x 630.355pt>
+Package pdftex.def Info: Figure/Q_bull.png  used on input line 230.
+(pdftex.def)             Requested size: 125.12099pt x 75.98329pt.
+<Figure/Q_butter.png, id=578, 1044.90375pt x 630.355pt>
 File: Figure/Q_butter.png Graphic file (type png)
 <use Figure/Q_butter.png>
-Package pdftex.def Info: Figure/Q_butter.png  used on input line 235.
-(pdftex.def)             Requested size: 140.1349pt x 84.53638pt.
+Package pdftex.def Info: Figure/Q_butter.png  used on input line 238.
+(pdftex.def)             Requested size: 125.12099pt x 75.47581pt.
 
-Overfull \hbox (21.05623pt too wide) detected at line 245
+Overfull \hbox (21.05623pt too wide) detected at line 248
 []
  []
 
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 245--245
+Overfull \hbox (30.0pt too wide) in paragraph at lines 248--248
 [] 
  []
 
-<Figure/tree.png, id=578, 965.6075pt x 814.04124pt>
+<Figure/tree.png, id=579, 965.6075pt x 814.04124pt>
 File: Figure/tree.png Graphic file (type png)
 <use Figure/tree.png>
-Package pdftex.def Info: Figure/tree.png  used on input line 252.
+Package pdftex.def Info: Figure/tree.png  used on input line 255.
 (pdftex.def)             Requested size: 100.09526pt x 84.37756pt.
-[16 <./Figure/Q_call.png> <./Figure/Q_bull.png> <./Figure/Q_butter.png> <./Figure/tree.png>]) (./report.aux)
+
+Overfull \vbox (11.67249pt too high) has occurred while \output is active []
+
+ [16 <./Figure/Q_call.png> <./Figure/Q_bull.png> <./Figure/Q_butter.png> <./Figure/tree.png>]) (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 4B5CF486116A2AB3925959AED4A638FE;12690.
  ) 
@@ -1092,12 +1095,12 @@ Here is how much of TeX's memory you used:
  52219 multiletter control sequences out of 15000+600000
  480605 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,30n,99p,922b,1024s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on report.pdf (16 pages, 1037853 bytes).
+ 90i,30n,99p,1353b,1018s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on report.pdf (16 pages, 1047535 bytes).
 PDF statistics:
- 707 PDF objects out of 1000 (max. 8388607)
- 579 compressed objects within 6 object streams
+ 712 PDF objects out of 1000 (max. 8388607)
+ 582 compressed objects within 6 object streams
  128 named destinations out of 1000 (max. 500000)
  865 words of extra memory for PDF output out of 10000 (max. 10000000)
 
