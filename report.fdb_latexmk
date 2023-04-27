@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1682574560 "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" "report.pdf" "report" 1682574563
+["pdflatex"] 1682576787 "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" "report.pdf" "report" 1682576790
   "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" 1682526615 2087 5b8f6b6704db1f64dec8f9eaa7516861 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -262,17 +262,17 @@
   "Figure/table.png" 1682497682 67473 0f0582192d5a9a744bae49cb1802b023 ""
   "Figure/tree.png" 1682573941 75175 4629226b51c329f4eff5c1d8e074453e ""
   "lecture1.tex" 1682500120 3275 6d6f7de3a6f7a6ae400d764f78d7fc9d ""
-  "lecture2.tex" 1682444304 3168 7306e0aafb32ae9a379f0288fbdb7db4 ""
+  "lecture2.tex" 1682574699 3132 8b3f391ed54eedf0b07fa16beba9a7f1 ""
   "lecture3.tex" 1682490725 3536 cf8330d9c04cb3d510a35e43bc308cb6 ""
   "lecture4.tex" 1682490753 3285 b449d5f93103356ab96b4e25fac086fe ""
   "lecture5.tex" 1682493656 3112 58b60afbe7a70d0d00ac54c081aa4028 ""
   "lecture6.tex" 1682499969 4592 5b84387c05a446a2e6e6718542b06484 ""
   "lecture7.tex" 1682450227 5794 fa37a9c57e68d7c65cb807d108a8b713 ""
-  "lecture8.tex" 1682574558 13928 01e902b72a5b2d307721497ecf51ebb6 ""
-  "report.aux" 1682574562 10566 fb3334817ae53ab66ee57cb41010f96a "pdflatex"
-  "report.out" 1682574562 12690 4b5cf486116a2ab3925959aed4a638fe "pdflatex"
+  "lecture8.tex" 1682576787 14245 81ee7d2c455a258cc307429568da7d93 ""
+  "report.aux" 1682576789 10566 fb3334817ae53ab66ee57cb41010f96a "pdflatex"
+  "report.out" 1682576789 12690 4b5cf486116a2ab3925959aed4a638fe "pdflatex"
   "report.tex" 1682526615 2087 5b8f6b6704db1f64dec8f9eaa7516861 ""
-  "report.toc" 1682574562 6763 163a5531f8a3fb4679b336f6ef2bebf4 "pdflatex"
+  "report.toc" 1682576789 6763 163a5531f8a3fb4679b336f6ef2bebf4 "pdflatex"
   (generated)
   "report.aux"
   "report.log"

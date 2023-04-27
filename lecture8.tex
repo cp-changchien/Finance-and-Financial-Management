@@ -163,11 +163,12 @@ A $\boxed{\textbf{Put option's value}}$ is:
 
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.3\textwidth]{Figure/strip.png}
+    \includegraphics[width =0.28\textwidth]{Figure/strip.png}
 \end{figure}
+\vspace*{-0.9cm}
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.3\textwidth]{Figure/strap.png}
+    \includegraphics[width =0.28\textwidth]{Figure/strap.png}
 \end{figure}
 
 \subsection{Put-Call Parity}
@@ -178,9 +179,8 @@ A $\boxed{\textbf{Put option's value}}$ is:
     \item Put-Call parity states that the blue line plus the red line plus the purple line should equal to the green line. 
     \begin{figure}[H]
         \centering 
-        \includegraphics[width =0.37\textwidth]{Figure/parity.png}
+        \includegraphics[width =0.35\textwidth]{Figure/parity.png}
     \end{figure}
-    \item This presents an arbitrageable relationship. If the relation breaks, there be an arbitrage opportunity. 
 \end{itemize}
 \begin{gather*}
     \boxed{C(K,T)-P(K,T) = S_0-e^{-rT}K}
@@ -195,6 +195,7 @@ Where $C$ is the price of a call, $P$ is the price of a put, $T$ is the time to 
     Net cashflow & $\underbrace{P-C-e^{rT}X}_{S_0}$ & $S_T$ & $S_T$ \\
     \end{tabular}
 \end{table}
+\vspace*{-0.5cm}
 By buying a call, selling a put, and lend the present value of the strike, I ended up with a portfolio $S_T$, which implies that I ended up owning the stock, or owning the cash equivalent of the stock no matter the stock does well or bad. So another way to \textit{own} a stock is to \textit{buy} the stock. Thus, this portfolio perfectly replicates the payoffs of owning this stock.
 
 \subsection{Option Pricing}
@@ -203,7 +204,7 @@ Say I offer a lottery to bet on a fair coin toss ($P(H)=P(T)=0.5$), if it lands 
 
 Because the lottery is \textbf{risky}, we won't pay the actuarially price (\$50), therefore, the difference between the actuarially price and the price we are willing to pay (\$30) is the \underline{risk premium}. Thus, the distribution extract by looking at the price will be skewed because the probability assigned to heads is lower than the truth when riskiness is involved. People on average tends to be risk averse that they won't pay the actuarially fair price.\par 
 
-\textbf{Good states of the world will be undervalued (0.3), bad states will be overvalued (0.7)}. This is how risk aversion shows up in prices. The Risk-Neutral Distribution (Q) tells us about the physical probability (P) but also with risk aversion, and it's hard to separate these two. 
+\textbf{Good states of the world will be undervalued (0.3), bad states will be overvalued (0.7)}. This is how risk aversion shows up in prices. The Risk-Neutral Distribution (Q)\footnote{Under the assumption of risk neutrality, investors do not require a higher expected return to compensate them for taking on more risk, and they do not penalize investments with higher risk. Instead, they only care about the expected return of the investment, which is the weighted average of the possible outcomes of the investment, where each outcome is weighted by its probability.} tells us about the physical probability (P) but also with risk aversion, and it's hard to separate these two. 
 
 \subsubsection{How to get Q distribution}
 Consider three call options with the same maturity but different strike price:
@@ -214,7 +215,7 @@ Consider three call options with the same maturity but different strike price:
 \end{itemize}
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.3\textwidth]{Figure/Q_call.png}
+    \includegraphics[width =0.28\textwidth]{Figure/Q_call.png}
 \end{figure}
 And then we construct a bull spread with these call options (Bull spread: buy low strike call, sell high strike call) 
 \begin{itemize}
@@ -223,7 +224,7 @@ And then we construct a bull spread with these call options (Bull spread: buy lo
 \end{itemize}
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.3\textwidth]{Figure/Q_bull.png}
+    \includegraphics[width =0.28\textwidth]{Figure/Q_bull.png}
 \end{figure}
 And finally, if we construct a butterfly spread (Buy low strike bull, sell high strike bull). 
 \begin{itemize}
@@ -231,7 +232,7 @@ And finally, if we construct a butterfly spread (Buy low strike bull, sell high 
 \end{itemize}
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.3\textwidth]{Figure/Q_butter.png}
+    \includegraphics[width =0.28\textwidth]{Figure/Q_butter.png}
 \end{figure}
 This particular butterfly spread price Arrow-Debreu Securities, where if one particular state of the world happens you get \$1 and \$0 if any other state of the world happens.\par
 
@@ -248,7 +249,7 @@ This shows that we can use options prices to extract risk-neutral probabilities.
 I have a stock ($S_0=100$), A bond ($B_0=100$) with $R_f=2\%$, and I want to replicate a call option $C$ with strike price $K$. 
 \begin{figure}[H]
     \centering 
-    \includegraphics[width =0.25\textwidth]{Figure/tree.png}
+    \includegraphics[width =0.2\textwidth]{Figure/tree.png}
 \end{figure}
 If I try to replicate the payoffs of the call option by buying $\Delta$ amount of stock $S_0$ and $X$ unit of bond $B$. Assume that for high scenarios, the stock $S_H = 110$, and at low times, the stock $S_L = 90$, whereas the bond pays 100 no matter what. Therefore, the call at maturity for high is \$10, and \$0 at low. 
 \begin{gather*}
