@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1682889925 "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" "report.pdf" "report" 1682889926
+["pdflatex"] 1682938504 "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" "report.pdf" "report" 1682938507
   "/Users/cooper/Desktop/AE4 (2022-2023)/Modules/BPES - Finance and Financial Management/FFM notes/report.tex" 1682526615 2087 5b8f6b6704db1f64dec8f9eaa7516861 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -268,12 +268,12 @@
   "lecture4.tex" 1682490753 3285 b449d5f93103356ab96b4e25fac086fe ""
   "lecture5.tex" 1682493656 3112 58b60afbe7a70d0d00ac54c081aa4028 ""
   "lecture6.tex" 1682499969 4592 5b84387c05a446a2e6e6718542b06484 ""
-  "lecture7.tex" 1682889923 6150 e7ea523f52cc56609e475567c5711171 ""
+  "lecture7.tex" 1682938504 6568 1673b64dbca1494f027c0dda47b98df5 ""
   "lecture8.tex" 1682591566 14627 670c9755ed0268c1f184ebb7aaed4b26 ""
-  "report.aux" 1682889926 10575 ca2773415b1b6ec5c9f0b372f6a6ed45 "pdflatex"
-  "report.out" 1682889926 12738 69cfb66e8deee174b7ddc0a1eb1d8a01 "pdflatex"
+  "report.aux" 1682938507 10575 ac88de6039fc3c1e80b8924279f44d6f "pdflatex"
+  "report.out" 1682938507 12738 69cfb66e8deee174b7ddc0a1eb1d8a01 "pdflatex"
   "report.tex" 1682526615 2087 5b8f6b6704db1f64dec8f9eaa7516861 ""
-  "report.toc" 1682889926 6772 80a272da97358ac31cecdced86480b1d "pdflatex"
+  "report.toc" 1682938507 6772 5e92c70fe881758a512783643b9693f5 "pdflatex"
   (generated)
   "report.aux"
   "report.log"
