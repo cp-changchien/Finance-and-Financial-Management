@@ -40,8 +40,8 @@
 \contentsline {subsubsection}{\numberline {6.4.1}Dividend Payout Ratio}{8}{subsubsection.6.4.1}%
 \contentsline {subsubsection}{\numberline {6.4.2}Earnings-Retention Ratio}{8}{subsubsection.6.4.2}%
 \contentsline {subsection}{\numberline {6.5}DDM Analysis}{8}{subsection.6.5}%
-\contentsline {subsubsection}{\numberline {6.5.1}D constant}{8}{subsubsection.6.5.1}%
-\contentsline {subsubsection}{\numberline {6.5.2}D grow at rate g}{8}{subsubsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.1}Dividend constant}{8}{subsubsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.2}Dividend grow at rate g}{8}{subsubsection.6.5.2}%
 \contentsline {subsection}{\numberline {6.6}Two stage valuation}{8}{subsection.6.6}%
 \contentsline {subsection}{\numberline {6.7}Valuation Ratio}{9}{subsection.6.7}%
 \contentsline {subsubsection}{\numberline {6.7.1}Price-dividend ratio}{9}{subsubsection.6.7.1}%
